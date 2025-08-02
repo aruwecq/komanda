@@ -1,0 +1,90 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 4 10px blue;
+    margin: auto;
+width: 1200px;
+background-color: bisque;
+border-radius: 19px;
+}
+ .header h1{
+    color: blue;
+     font-weight: 300;
+ }
+  .hero-1{
+    display: flex;
+    justify-content: center;
+    padding: 28px;
+    gap: 25px;
+    list-style: none;
+    font-size: 20px;
+    
+  }
+  .header img{
+    border-radius: 64px;
+    width: 120px;
+  }
+  .header button{
+width: 120px;
+height: 50px;
+border-radius: 25px;
+background-color: crimson;
+
+  }
+  .head{
+display: flex;
+color: rgb(88, 9, 213);
+}
+.head input{
+  border-radius: 16px;
+  width: 1200px;
+  height: 23px;
+  
+}
+/* 2 */
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  background: #f5f5f5;
+  border-radius: 16px;
+}
+
+.card {
+  width: 160px;
+  height:auto ;
+  padding: 15px;
+  border-radius: 8px;
+border: none;
+  box-shadow: 0 5px 99px rgba(212, 144, 9, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+   border-radius: 36px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px #ececec33;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+   border-radius: 16px;
+}
+.cards button{
+  background-color: rgb(6, 6, 6);
+  width: 120px;
+  height: 39px;
+  color: azure;
+  border-radius: 16px;
+}
+.sectionn{
+  width: 1200px;
+  margin: auto;
+}
+

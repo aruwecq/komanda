@@ -1,0 +1,107 @@
+.cardss {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  background: #f5f5f5;
+  border-radius: 16px;
+}
+
+.cardd {
+  width: 160px;
+  height:auto ;
+  padding: 15px;
+  border-radius: 8px;
+border: none;
+  box-shadow: 0 5px 99px rgba(18, 216, 4, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+   border-radius: 36px;
+}
+
+.cardd:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(3, 63, 27, 0.2);
+}
+
+.cardd img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+   border-radius: 16px;
+}
+.cardss button{
+  background-color: rgb(200, 247, 100);
+  width: 120px;
+  height: 39px;
+  border-radius: 16px;
+}
+
+
+.footerb{
+    width: 1200px;
+    background-color: #383230;
+    height: 564px;
+    margin: auto;
+}
+.hero{
+    width: 400px;
+    height: 300px;
+}
+.hero h1{
+   font-size: 48px;
+   color: azure;
+}
+.span1{
+    width: 300px;
+    height: 80px;
+}.span1 span{
+   font-size: 24px;
+   color: azure;
+}
+.input-btn input{
+    width: 200px;
+    height: 47px;
+    color: #ffffff48 ;
+    margin-top: 20px;
+    background-color: #383230;
+
+}.input-btn button{
+    width: 77px;
+    height: 47px;
+    color: #8C8C8C ;
+    margin-top: 20px;
+    border-radius: 8px;
+    color: black;
+    border: none;
+}
+.icon{
+    width: 100px;
+    height: 300px;
+    margin: auto;
+    margin-top: -160px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: azure;
+}.icona{
+    width: 100px;
+    height: 300px;
+    margin: auto;
+    margin-top: -301px;
+    padding-left: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: azure;
+}
+.wis{
+    margin-left: 70px;
+    padding-top: 90px;
+}
+.heaader{
+    margin: auto;
+    width: 1200px;
+}
